@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #021526;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #021526;
+}
+
+.calculator {
+    background: #eef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+h3 {
+    color: #021526;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #E2E2B6;
+    outline: none;
+    box-shadow: 0 0 8px white;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    flex: 1;
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    background: transparent;
+    color: black;
+    box-shadow: none;
+}
+
+
+#addBtn {
+    border-color: #FF6500;
+    color: #FF6500;
+}
+
+#clearBtn {
+    border-color: #1E3E62;
+    color: #1E3E62;
+}
+
+#exitBtn {
+    border-color: #0B192C;
+    color: #0B192C;
+}
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+    border: 2px solid #000000; 
+    color: #000000;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button:hover {
+    background: var(--btn-color);
+    color: white;
+}
+
+
+button:active {
+    background: var(--btn-color);
+    color: white;
+    box-shadow: 0 0 10px var(--btn-color);
+}
+
+
+#addBtn:hover, #addBtn:active { background: #FF6500; color: black; }
+#clearBtn:hover, #clearBtn:active { background: #1E3E62; color: white; }
+#exitBtn:hover, #exitBtn:active { background: #0B192C; color: white; }

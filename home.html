@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Addition Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Simple Calculator</div>
+        <div class="calculator">
+            <h3>Number Addition</h3>
+            <div class="input-group">
+                <label for="num1">First Number:</label>
+                <input type="number" id="num1">
+            </div>
+            <div class="input-group">
+                <label for="num2">Second Number:</label>
+                <input type="number" id="num2">
+            </div>
+            <div class="button-group">
+                <button id="addBtn" onclick="calculate()">Add</button>
+                <button id="clearBtn" onclick="clearFields()">Clear</button>
+                <button id="exitBtn" onclick="exitApp()">Exit</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
