@@ -1,1 +1,1 @@
-Learning experiences/challenges faced
+I've learned that deploying as a first-timer is not easy. I initially thought it would be simple—just clicking here and there—but IT’S NOT! While I was deploying, my Alt + Tab key, if it could talk, would probably say, 'I’M SO DONE WITH THIS' before walking out. Vercel and I just weren’t meant to be, as it refused to let me deploy. But thanks to Netlify, it was a success! Overall, it was a challenging but rewarding experience. Thank you, Netlify!
